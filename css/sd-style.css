@@ -1,0 +1,339 @@
+/*
+Theme Name: sd
+Description: sd
+Author: sd
+Author URI: sd
+Template: ascend
+*/
+
+/* @import url('../css/css'); */
+/* font-family: 'Comfortaa', cursive; */
+
+@import url("../css/style.css");
+body {
+	/* font-family: 'Comfortaa', cursive !important; */
+}
+@media (min-width: 1025px) and (max-width: 1063.98px) {
+	.brand img {
+		display: none;
+	}
+	.kt-header-position-above .kad-logo-used {
+    padding-left: 0;
+	}
+}
+@media (max-width: 1024.98px) {
+	.brand img {
+		height: 50px;
+		width: auto;
+		margin-right: 10px;
+	}
+}
+
+.titleclass .subtitle {
+    line-height: 40px;
+}
+.home .titleclass .subtitle {
+	margin-top: 15px;
+	margin-bottom: -16px;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+#logo a.brand:hover img {
+    opacity: .7;
+}
+.sf-menu > li > a {
+    text-transform: none;
+}
+.titleclass h1{
+    line-height: 28px;
+}
+a h3,
+a h5{
+    color:#aaa;
+}
+a:hover h3,
+a:hover h5,
+.widget_categories ul li.current-cat a{
+    color:#b00;
+}
+.widget_categories ul li.current-cat a{
+    cursor: default;
+}
+.sf-menu ul{
+    border:1px solid #000!important;
+    min-width: 14em;
+}
+.nav-main ul.sf-menu ul a {
+    border-bottom:1px solid #000;
+    padding: 8px 10px;
+}
+.nav-main ul.sf-menu ul li:last-child a {
+    border-bottom:none;
+}
+.nav-main .sf-menu.sf-menu-normal > li > ul:before {
+    border-bottom-color: #000!important;
+}
+.sf-menu.sf-menu-normal > li > ul:before{
+    top:-7px;
+}
+.kt-showsub-indicator .sf-menu-normal .sf-dropdown-submenu > a:after{
+    top: 11px;
+    width: 5px;
+}
+
+.kt_post_category a{
+    font-size: 15px;
+    text-transform: none;
+}
+
+
+.postlist article .entry-content a.more-link,
+.posttags, .tagcloud,
+.kt_postlink_meta,
+.post-carousel-title{
+    text-transform: none;
+}
+.postlist article .entry-content a.more-link{
+    margin-top: 15px;
+}
+.posttags a:first-child{
+    margin-left: 5px;
+}
+
+
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+select,
+textarea {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #000;
+    box-shadow: none;
+    color: #000;
+}
+
+
+.above-footer-widgets .widget-title:before,
+.footer-widget-title:before,
+.kt-title:before,
+.sidebar .widget-title:before {
+    display: none;
+}
+.sidebar .widget-title{
+    border-bottom: 2px solid #000;
+    line-height: 24px;
+    padding-bottom: 3px;
+}
+
+.sidebar .widget {
+    margin-top: 25px;
+}
+.sidebar .widget-first {
+    margin-top: 0!important;
+}
+.sidebar .widget-first .widget-title{
+    margin-top: 0;
+}
+
+
+[class^="kt-icon-"] {
+    top: 1px;
+    position: relative;
+    color:#000;
+}
+[class^="kt-icon-"]:hover,
+#topcontrol .to_the_top:hover .kt-icon-chevron-up {
+    color:#b00;
+}
+#topcontrol .to_the_top > div {
+    padding-top: 7px;
+}
+
+
+
+.widget_archive ul, 
+.widget_categories ul, 
+.widget_meta ul, 
+.widget_pages ul, 
+.widget_product_categories ul, 
+.widget_recent_comments ul, 
+.widget_recent_entries ul {
+    margin: -5px 0 0 0;
+}
+.widget_archive ul li, 
+.widget_categories ul li, 
+.widget_meta ul li, 
+.widget_pages ul li, 
+.widget_product_categories ul li, 
+.widget_recent_comments ul li, 
+.widget_recent_entries ul li {
+    margin: 0;
+}
+.widget_archive ul li a, 
+.widget_categories ul li a, 
+.widget_meta ul li a, 
+.widget_pages ul li a, 
+.widget_product_categories ul li a, 
+.widget_recent_comments ul li a, 
+.widget_recent_entries ul li a {
+    border-bottom: 1px solid #555;
+    color:#000!important;
+    padding: 7px 5px 7px 0;
+    margin: 0;
+}
+.widget_archive ul li a:hover, 
+.widget_categories ul li a:hover, 
+.widget_meta ul li a:hover, 
+.widget_pages ul li a:hover, 
+.widget_product_categories ul li a:hover, 
+.widget_recent_comments ul li a:hover, 
+.widget_recent_entries ul li a:hover,
+.widget_archive ul li.current-cat a, 
+.widget_categories ul li.current-cat a, 
+.widget_meta ul li.current-cat a, 
+.widget_pages ul li.current-cat a, 
+.widget_product_categories ul li.current-cat a, 
+.widget_recent_comments ul li.current-cat a, 
+.widget_recent_entries ul li.current-cat a {
+    color:#b00!important;
+}
+
+#topcontrol .to_the_top {
+    background-color: #fff;
+}
+#topcontrol .to_the_top:hover{
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.asgarosforum-widget .widget-element:first-child{
+    margin-top: 3px;
+    width: 100%;
+    float: left;
+}
+.asgarosforum-widget .post-link{
+    font-size: 15px;
+    line-height: 22px;
+    margin: 1px 0 3px 0
+}
+.asgarosforum-widget .post-author, 
+.asgarosforum-widget .post-date{
+    font-size: 13px;
+    line-height: 17px;
+}
+.asgarosforum-widget .post-author{
+    margin-bottom: 4px;
+}
+.asgarosforum-widget .post-date{
+    margin-bottom: 2px;
+}
+.asgarosforum-widget .highlight-admin,
+.asgarosforum-widget .highlight-admin a{
+    color:#000!important;
+}
+
+
+/* --------------------------------------------- */
+
+.kad-topbar-flex-item .sf-menu>li>a:hover {
+	opacity: .6;
+}
+
+.headerclass, 
+.mobile-headerclass, 
+.kad-fixed-vertical-background-area {
+	background-color: #e5f2fc;
+}
+
+.kt-showsub-indicator .sf-menu-normal .sf-dropdown>a:after {
+	min-height: 20px;
+}
+
+.is-sticky .kad-header-menu-outer {
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.6);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.6);
+	box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.6);
+	background-color: #f9f9f9;
+}
+
+.is-sticky .nav-main ul.sf-menu > li > a:hover, 
+.is-sticky .nav-main ul.sf-menu > li.sfHover > a, 
+.is-sticky .nav-main ul.sf-menu > li.current-menu-item > a {
+	background: #f9f9f9;
+}
+
+#pageheader #kadbreadcrumbs {
+	background-color: #036;
+	text-transform: none;
+	padding: 10px 0;
+	line-height: normal;
+	font-size:14px;
+}
+#pageheader #kadbreadcrumbs a {
+	border-bottom: none;
+	color: #fff;
+}
+#pageheader #kadbreadcrumbs a:hover {
+	color: #f00;
+}
+
+.kad-breadcurrent {
+color: #00b465;
+}
+
+.kt_color_gray {
+	color: #000;
+}
+
+a h3, a h5 {
+	color: #000;
+}
+
+.single-footer {
+	border-top: 1px solid #000;
+}
+.post-footer-section {
+	border-bottom: 1px solid #000;
+}
+
+.posttags a, .tagcloud a {
+	border: 1px solid #000;
+	color: #000;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	color: #000;
+	border: solid 1px #000;
+}
+
+.postlist article .entry-content a.more-link {
+	border: 2px solid #000;
+	color: #000;
+}
+
+.comment-content a:not(.button), .entry-content p a:not(.button):not(.select2-choice):not([data-rel=lightbox]) {
+	border-bottom: 2px solid #000;
+}
+
+.kt_search_post_type {
+	border-left: 2px solid #000;
+	color: #000;
+}
+
+.kt_item_fade_in,
+.img-margin-center {
+background-color: #fff;
+border: 1px solid #333;
+padding: 10px;
+}
+
+.blog_photo_item .photo-postcontent {
+	left: 0px;
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
