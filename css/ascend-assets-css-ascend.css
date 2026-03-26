@@ -41,5 +41,19 @@ hr {
     color: #fff;
 }
 .kad-mobile-nav .current-menu-item > a {
-  color: #f00;
+  color: #00a651;
+}
+
+@media (max-width: 992px) {
+    #kad-mobile-banner {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 1000;
+      width: 100vw;
+      border-bottom: 1px solid #000;
+      -webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.55);
+      -moz-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.55);
+      box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.5);
+    }
 }
