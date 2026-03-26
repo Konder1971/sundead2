@@ -335,3 +335,8 @@ padding: 10px;
 .blog_photo_item .photo-postcontent {
 	left: 0px;
 }
+
+.home .brand:hover {
+  cursor: default!important;
+  color: #000!important;
+}
