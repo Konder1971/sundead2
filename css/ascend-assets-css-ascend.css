@@ -58,6 +58,7 @@ hr {
       -webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.55);
       -moz-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.55);
       box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.5);
-      background: #FCFA
+      background: #FCFA;
+      opacity: 1!important;
     }
 }
