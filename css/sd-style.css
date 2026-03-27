@@ -325,12 +325,11 @@ a h3, a h5 {
 	color: #000;
 }
 
-.kt_item_fade_in,
-.img-margin-center {
-background-color: #FCFAEA;
-border: 1px solid #333;
-padding: 10px;
-}
+.kt_item_fade_in {
+  background-color: #FCFAEA;
+  border: 1px solid #333;
+  padding: 10px;
+  }
 
 .blog_photo_item .photo-postcontent {
 	left: 0px;
