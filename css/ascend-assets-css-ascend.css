@@ -63,3 +63,8 @@ hr {
       opacity: 1!important;
     }
 }
+
+.blog-bottom-carousel .blog_photo_item .photo-postcontent .photo-postcontent-inner .entry-title {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
